@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('fonts/PressStart2P.ttf');
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	position: absolute;
+	font-family: 'PressStart2P', cursive;
+	visibility: hidden;
+	width: 600px;
+	height: 50px;
+	margin-top: -325px;
+	margin-left: -300;
+	top: 50%;
+	left: 50%;
+	z-index: 99;
+}
+
+body {
+	background-color: #000000; 
+}
+
+button {
+	background: none;
+	border: none;
+	font-family: 'PressStart2P', cursive;
+	color: white;
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -15px;
+}
+
+button:hover {
+	color: #AAAAAA;
+}
+
+a {
+	position: absolute;
+	top: 50%;	
+	left: 50%;
+	width: 200px;
+	height: 50px;
+	margin-top: 280px;
+	margin-left: 45px;
+	color: white;
+	font-family: 'PressStart2P', cursive;
+	font-size: 8px;
+	z-index: 99;
+	opacity: 0.5;
+}
+
+#canvasID {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 540px;
+	height: 540px;
+	margin-left: -270px;
+	margin-top: -270px;
+	border: 2px dashed white;
+	image-rendering: pixelated;
+	visibility: hidden;
+	user-select: none;
+
+}
